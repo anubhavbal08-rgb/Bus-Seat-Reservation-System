@@ -1,0 +1,27 @@
+# Bus Seat Reservation System
+
+A Java JDBC project connected to Oracle FreeSQL.
+
+## Features
+- View available buses and routes
+- Display travel dates and available seats
+- Database connectivity using JDBC
+- Oracle SQL tables for buses and bookings
+
+## Technologies Used
+- Java
+- JDBC
+- Oracle Database / FreeSQL
+- SQL
+
+## Setup
+1. Install the Java JDK.
+2. Download the Oracle JDBC driver.
+3. Configure your Oracle FreeSQL connection details using environment variables.
+4. Compile and run `Main.java` with the JDBC driver on the classpath.
+
+## Security
+Database credentials should be kept private and must not be committed to the repository.
+
+## Project Status
+Database setup and JDBC connection test completed. Booking and cancellation features can be added as further development.
